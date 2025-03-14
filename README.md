@@ -1,6 +1,7 @@
-***THIS IS AN UNOFFICIAL BUILD SCRIPT!***
+Credits to go [k3d3/claude-desktop-linux-flake](github.com/k3d3/claude-desktop-linux-flake) for doing the ground work to develop the original Flake!
 
-If you run into an issue with this build script, make an issue here. Don't bug Anthropic about it - they already have enough on their plates.
+> [!WARNING]
+> Do not contact Anthropic for any issues you experience with this script. This is a community driven unsupported project that Anthropic has nothing to do with. Instead, [open an issue](https://github.com/steven-mosley/claude-desktop-linux-flake/issues) for any issues.
 
 # Claude Desktop for Linux (Nix)
 
@@ -31,7 +32,7 @@ are dictated by the application itself, not the build script used to build the a
 
 Add the following to your `flake.nix`:
 ```nix
-inputs.claude-desktop.url = "github:k3d3/claude-desktop-linux-flake";
+inputs.claude-desktop.url = "github:steven-mosley/claude-desktop-linux-flake";
 inputs.claude-desktop.inputs.nixpkgs.follows = "nixpkgs";
 inputs.claude-desktop.inputs.flake-utils.follows = "flake-utils";
 ```

@@ -21,7 +21,7 @@ This is a Nix flake for running Claude Desktop on Linux.
 To run this once, make sure Nix is installed, then run
 
 ```bash
-NIXPKGS_ALLOW_UNFREE=1 nix run github:k3d3/claude-desktop-linux-flake --impure
+NIXPKGS_ALLOW_UNFREE=1 nix run github:steven-mosley/claude-desktop-linux-flake --impure
 ```
 
 The "unfree" part is due to the fact that Claude Desktop is not an open source application, and thus, Nix's licensing rules
